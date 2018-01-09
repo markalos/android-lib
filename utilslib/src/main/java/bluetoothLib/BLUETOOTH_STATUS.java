@@ -1,0 +1,9 @@
+package bluetoothLib;
+
+
+
+public enum BLUETOOTH_STATUS {
+    CONNECTION_ESTABLISHING,
+    CONNECTION_ESTABLISHED,
+    CONNECTION_FREE,
+}

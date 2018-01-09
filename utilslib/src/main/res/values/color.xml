@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="translucence">#b0000000</color>
+    <color name="dialog_line">#8F999999</color>
+    <color name="menu_bg_focus">#C8000000</color>
+    <color name="menu_bg_normal">#FF666666</color>
+
+    <color name="list_view_material_light" >#ffd6d7d7</color>
+    <color name="item_pressed_color">#ff8888 </color>
+    <color name="item_default_color" >#ffffff</color>
+</resources>
