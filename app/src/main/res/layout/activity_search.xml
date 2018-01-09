@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id = "@+id/devices"
+    android:background="#1d2026"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <RelativeLayout
+        android:background="#46c5d9"
+        android:layout_width="fill_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom = "true"
+        android:id= "@+id/searchDeviceButton">
+
+        <TextView android:id="@+id/start_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="22sp"
+            android:textColor="#ffffff"
+
+            android:text="@string/searchDevice"/>
+
+        <ImageView
+            android:id="@+id/searchIcon"
+            android:layout_centerVertical="true"
+            android:layout_width="33dp"
+            android:layout_height="33dp"
+            android:layout_toLeftOf="@id/start_search"
+            android:layout_marginRight="10dp"
+            android:contentDescription="@string/searchDevice"
+            android:src="@drawable/search"
+            />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/deviceList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollingCache="false"
+        android:divider="#ffc6c6c6"
+        android:layout_above = "@id/searchDeviceButton"
+        />
+</RelativeLayout>

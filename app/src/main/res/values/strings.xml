@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">econMonitor</string>
+    <string name="scan">scan</string>
+    <string name="scanBluetooth">scan</string>
+    <string name="searchDevice">device</string>
+    <string name="searchAgain">search</string>
+    <string name="pause">pause</string>
+    <string name="sync">sync</string>
+    <string name="signal">now</string>
+</resources>
